@@ -18,7 +18,7 @@ public class TestGroceryStore {
         try {
             TestGroceryStore testGroceryStore = new TestGroceryStore();
             int processingTime = testGroceryStore.timeRequiredToProcessCustomers(args[0]);
-            System.out.println("Time Required to process all Customers is t = " + processingTime);
+            System.out.println("Finished at: t=" + processingTime + " minutes.");
         } catch (Exception e) {
             System.out.println("Unable to calculate time. Error in input file.");
             e.printStackTrace();
